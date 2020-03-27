@@ -119,7 +119,7 @@ def sing(text, notes, voice, fname=None):
 # Sing in German: "Alle meine Entchen"
 voice = Voice(lang="de", voice_id=2)	
 text = "Alle meine Entchen schwimmen auf dem See. | schwimmen auf dem See. | Köpfchen in das Wasser. Schwänzchen in die Höh."
-notes = 'd4 e4 f4 g4 a2 a2 b4 b4 b4 b4 a2 4 b4 b4 b4 b4 a2 4 g4 g4 g4 g4 f2 f2 a4 a4 a4 a4 d2' 
+notes = 'd4 e4 f#4 g4 a2 a2 b4 b4 b4 b4 a2 4 b4 b4 b4 b4 a2 4 g4 g4 g4 g4 f#2 f#2 a4 a4 a4 a4 d2' 
 sing(text, notes, voice, "entchen.wav")
 
 # Sing "Atemlos"
@@ -133,7 +133,7 @@ sing(text, notes, voice)
 voice = Voice(lang="fr", voice_id=1)	
 # in the text Jacques is changed by Jacquès and matines by matinès for the purpose of singing..
 text = "Frèrè Jacquès, Frèrè Jacquès, dormez-vous, dormez-vous? Sonnez les matinès, sonnez les matinès, Ding, ding, dong. Ding, ding, dong."
-notes = 'f4 g4 a4 f4 f4 g4 a4 f4 a4 b4 +c2 a4 b4 +c2 +c8 +d8 +c8 b8 a4 f4 +c8 +d8 +c8 b8 a4 f4 f4 c4 f2 f4 c4 f2'
+notes = 'f4 g4 a4 f4 f4 g4 a4 f4 a4 a#4 +c2 a4 a#4 +c2 +c8 +d8 +c8 a#8 a4 f4 +c8 +d8 +c8 a#8 a4 f4 f4 c4 f2 f4 c4 f2'
 sing(text, notes, voice, "jaques.wav") 
 
 # Sing in English: "Twinkle, Twinkle, Little Star"
